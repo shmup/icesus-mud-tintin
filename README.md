@@ -1,6 +1,6 @@
 [tintin++](http://tintin.sourceforge.net/) scripts for [icesus](http://icesus.org/)
 
- **adjust preferences.tin with your character name and password**
+ **adjust prefs.tin with your character name and password**
 
 `./run` (chmod +x if not executable)
 
