@@ -12,19 +12,19 @@
 #nop #act {~%1 \{mushclient+\}: '%2} {showtowin %1 \{mush\}: '%2}
 
 #alias {showtowin} {
-	#format temp {%w} {%0};
+    #format temp {%w} {%0};
 
-	#loop {1} {&temp[]} {cnt} {
-		#list window ins -1 {$temp[$cnt]}
-	};
+    #loop {1} {&temp[]} {cnt} {
+        #list window ins -1 {$temp[$cnt]}
+    };
 
-	#loop {7} {&window[]} {cnt} {
-		#list window del 1
-	};
+    #loop {7} {&window[]} {cnt} {
+        #list window del 1
+    };
 
-	#loop {1} {6} {cnt} {
-		#echo {{$window[$cnt]} {-$cnt}}
-	}
+    #loop {1} {6} {cnt} {
+        #echo {{$window[$cnt]} {-$cnt}}
+    }
 }
 
 #alias {test} {
@@ -33,7 +33,7 @@
     #showme Bonkers {newbie}: Hello this is a test;
     #showme Scorpion [party]: The flying ants hatched oh shit;
     #showme Brad [chat]: Sup?;
-	#showme JenniferLopez tells you 'Yeah okay yep';
+    #showme JenniferLopez tells you 'Yeah okay yep';
     #showme Cilnite [mage]: Sup?;
     colors
 }
