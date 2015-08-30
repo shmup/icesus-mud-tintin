@@ -1,0 +1,15 @@
+#noc http://tintin.sourceforge.net/manual/
+#noc http://tintinplusplus-unoffical-documentation.readthedocs.org/en/latest/index.html
+
+#split 7 1
+
+#read prefs.tin
+#read configs.tin
+#read aliases.tin
+#read actions.tin
+#read functions.tin
+#read window.tin
+
+#ses icesus icesus.org 23
+$name;$pass;cls;l;;l;friends;switch to a
+

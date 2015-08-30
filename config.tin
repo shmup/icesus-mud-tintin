@@ -1,0 +1,23 @@
+#config {256 colors}    {on}
+#config {buffer size}   {500000}
+#config {color patch}   {on}
+#config {command echo}  {off}
+#config {connect retry} {60}
+#config {history size}  {2000}
+#config {log}           {html}
+#config {mccp}          {on}
+#config {packet patch}  {5}
+#config {repeat char}   {!}
+#config {repeat enter}  {off}
+#config {scroll lock}   {on}
+#config {speedwalk}     {off}
+#config {tintin char}   {#}
+#config {verbatim char} {\}
+#config {verbatim}      {off}
+#config {verbose}       {on}
+#config {wordwrap}      {on}
+#config {wordwrap}      {on}
+
+#NOP http://tintin.sourceforge.net/scripts/window.php;
+#NOP #config {convert meta}  {on};
+
