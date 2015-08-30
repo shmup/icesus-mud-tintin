@@ -1,4 +1,4 @@
-[tintin++](http://tintin.sourceforge.net/) scripts for [icesus](http://icesus.org/) mud
+[tintin++](http://tintin.sourceforge.net/) scripts for [Icesus](http://icesus.org/) mud
 
  **adjust prefs.tin with your character name and password**
 
