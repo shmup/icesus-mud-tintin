@@ -4,7 +4,7 @@
 
 `./run` (chmod +x if not executable)
 
- * [icesus wiki](http://www.icesus.org/Icesus/) / ([mirror](http://37.157.195.141/mediawiki/))
+ * [icesus wiki](http://icewiki.hyperi.fi/) / ([mirror](http://37.157.195.141/mediawiki/))
  * [icesus google map](http://www.icesus.org/Documentation/map.php)
  * [icesus ascii map](http://flaprider.dyndns.org/~freld/icesusmap.html)
  * [tintin++ git repo](https://github.com/tintinplusplus/tintin)
