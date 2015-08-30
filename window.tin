@@ -1,12 +1,12 @@
 #var window {{1}{ } {2}{ } {3}{ } {4}{ } {5}{ } {6}{ }}
 
-#act {~%1 [mage]: %2} {showtowin <faa>@mage  <faa><<g22>%1<faa>> <g21>%2}
-#act {~%1 [chat]: %2} {showtowin <fea>@chat  <fea><<g22>%1<fea>> <g21>%2}
-#act {~%1 [party]: %2} {showtowin <cbf>@party <cbf><<g22>%1<cbf>> <g21>%2}
-#act {~%1 tells you '%2'} {showtowin <efa>@tell  <efa><<g22>%1<efa>> <g21>%2}
-#act {~%1 \{client+\}: %2} {showtowin <ebd>@client  <ebd><<g22>%1<ebd>> <g21>%2}
-#act {~%1 \{newbie\}: %2} {showtowin <cef>@noob  <cef><<g22>%1<cef>> <g21>%2}
-#act {~%1 \{mushclient+\}: %2} {showtowin <dba>@mush  <dba><<g22>%1<dba>> <g21>%2}
+#act {~%1 [mage]: %2} {showtowin <faa>@mage   <faa><<g22>%1<faa>> <g21>%2}
+#act {~%1 [chat]: %2} {showtowin <fea>@chat   <fea><<g22>%1<fea>> <g21>%2}
+#act {~%1 [party]: %2} {showtowin <cbf>@party  <cbf><<g22>%1<cbf>> <g21>%2}
+#act {~%1 tells you '%2'} {showtowin <efa>@tell   <efa><<g22>%1<efa>> <g21>%2}
+#act {~%1 \{client+\}: %2} {showtowin <ebd>@client <ebd><<g22>%1<ebd>> <g21>%2}
+#act {~%1 \{newbie\}: %2} {showtowin <cef>@noob   <cef><<g22>%1<cef>> <g21>%2}
+#act {~%1 \{mushclient+\}: %2} {showtowin <dba>@mush   <dba><<g22>%1<dba>> <g21>%2}
 #nop #act {~%1 [party] '%2} {showtowin %1 [party]: '%2}
 #nop #act {~%1 {mushclient+}: '%2} {showtowin %1 \{mush\}: '%2}
 #nop #act {~%1 \{mushclient+\}: '%2} {showtowin %1 \{mush\}: '%2}
@@ -28,12 +28,12 @@
 }
 
 #alias {test} {
-    #showme Sraak {mushclient+}: Birds are cool and can fly!;
-    #showme Gilbert {client+}: tintin++ is the best;
     #showme Bonkers {newbie}: Hello this is a test;
     #showme Scorpion [party]: The flying ants hatched oh shit;
     #showme Brad [chat]: Sup?;
     #showme JenniferLopez tells you 'Yeah okay yep';
     #showme Cilnite [mage]: Sup?;
+    #showme Sraak {mushclient+}: Birds are cool and can fly!;
+    #showme Gilbert {client+}: tintin++ is the best;
     colors
 }
