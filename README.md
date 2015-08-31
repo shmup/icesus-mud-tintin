@@ -9,4 +9,5 @@
  * [icesus ascii map](http://flaprider.dyndns.org/~freld/icesusmap.html)
  * [tintin++ git repo](https://github.com/tintinplusplus/tintin)
  * [tintin++ client manual](http://tintin.sourceforge.net/manual/)
+ * [tintin++ unofficial user's group](http://tintinplusplus.github.io/)
  * [tintin++ unofficial documentation](http://tintinplusplus-unoffical-documentation.readthedocs.org/en/latest/index.html)
