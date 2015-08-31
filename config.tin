@@ -18,6 +18,6 @@
 #config {wordwrap}      {on}
 #config {wordwrap}      {on}
 
-#NOP http://tintin.sourceforge.net/scripts/window.php;
-#NOP #config {convert meta}  {on};
+#nop HTTP://TINTIN.SOURCEFORGE.NET/SCRIPTS/WINDOW.PHP;
+#nop #CONFIG {CONVERT META}  {ON};
 
