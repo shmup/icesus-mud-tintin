@@ -1,7 +1,7 @@
 #alias wh   {d;e;s;e;s;e;e;s;s;s;e;e;e;e}
 #alias home {w;w;w;w;n;n;n;w;w;n;w;n;w;u}
 
-#alias df   {drink fountain}
+#alias df   {drink from fountain}
 #alias dg   {dig grave}
 #alias m    {map}
 #alias lc   {loot corpse}
