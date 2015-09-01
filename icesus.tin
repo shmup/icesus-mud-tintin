@@ -1,5 +1,5 @@
-#noc http://tintin.sourceforge.net/manual/
-#noc http://tintinplusplus-unoffical-documentation.readthedocs.org/en/latest/index.html
+#nop http://tintin.sourceforge.net/manual/
+#nop http://tintinplusplus-unoffical-documentation.readthedocs.org/en/latest/index.html
 
 #split 7 1
 
