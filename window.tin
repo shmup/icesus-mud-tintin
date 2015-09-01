@@ -7,6 +7,9 @@
 #act {~%1 \{mushclient+\}: %2} {showtowin <dba>@mush <dba><<g22>%1<dba>> <g21>%2}
 #act {~%1 \{client+\}: %2} {showtowin <ebd>@client <ebd><<g22>%1<ebd>> <g21>%2}
 #act {~\e[1m\e[32m%1 tells you '%2'} {showtowin <efa>@tell <efa><<g22>%1<efa>> <g21>%2}
+
+#nop Lingering mana from your arrow of sparks allows you to perform an instant
+#nop #act {~%1Lingering mana from your %2 allows you to perform an instant
 #nop #act {~%1 [mage]: %2} {showtowin <faa>@mage <faa><<g22>%1<faa>> <g21>%2}
 #nop #act {~%1 [party]: %2} {showtowin <cbf>@party <cbf><<g22>%1<cbf>> <g21>%2}
 #nop #act {~%1 \{newbie\}: %2} {showtowin <cef>@noob <cef><<g22>%1<cef>> <g21>%2}
