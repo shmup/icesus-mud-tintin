@@ -11,3 +11,5 @@
  * [tintin++ client manual](http://tintin.sourceforge.net/manual/)
  * [tintin++ unofficial user's group](http://tintinplusplus.github.io/)
  * [tintin++ unofficial documentation](http://tintinplusplus-unoffical-documentation.readthedocs.org/en/latest/index.html)
+
+ ![screen shot](http://i.imgur.com/oyiqIew.png "possibly outdated screen shot")
