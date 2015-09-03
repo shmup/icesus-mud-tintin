@@ -1,11 +1,13 @@
+#nop SPEEDWALKS
 #alias wh   {d;e;s;e;s;e;e;s;s;s;e;e;e;e}
 #alias home {w;w;w;w;n;n;n;w;w;n;w;n;w;u}
+#alias gobz {n;e;n;n;e;move rubble;d;s;e;n;e;e;e;s;e;e}
+#alias zbos {w;w;n;w;w;w;s;w;n;u;w;s;s;w;s}
+#nop starts at guards and IN cave (where hill is exit)
+#alias gobzhome {8 w;6 sw;8 s;4 sw;nw;cave}
+#alias homegobz {hills;se;4 ne;8 n;6 ne;8 e}
 
-#alias df   {drink from fountain}
-#alias dg   {dig grave}
-#alias m    {map}
-#alias lc   {loot corpse}
-
+#nop QUICKLY MOVE BY 5
 #alias fn   {5 n}
 #alias fs   {5 s}
 #alias fe   {5 e}
@@ -15,8 +17,14 @@
 #alias fse  {5 se}
 #alias fsw  {5 sw}
 
+#alias df   {drink from fountain}
+#alias dg   {dig grave}
+#alias m    {map}
+#alias lc   {loot corpse}
+#alias wp   {wimpy percent}
 #alias whereami {creator room}
 
+#nop PROMPTS
 #alias p1   {set prompt [nl]> [[bright][green][hp][reset]/[green][maxhp][reset]] [[bright][cyan][sp][reset]/[cyan][maxsp][reset]] [[bright][white][exp][reset]] [[yellow]$[cash][reset]] [bright][magenta][status][reset]}
 
 #alias {cls} {
