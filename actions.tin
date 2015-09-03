@@ -2,3 +2,6 @@
 
 #nop Room Secrets
 #action {'End of tunnel in the cave' is coded by Huck and is part of the Diamond Mines area.} { #showme <ebe>move rubble }
+
+#nop Ending Effects
+#action {Your elementalist's armor falters.} {}
