@@ -1,0 +1,17 @@
+#var normal     {\e[0m}
+#var bold       {\e[1m}
+#var underline  {\e[4m}
+#var blink      {\e[5m}
+#var reverse    {\e[7m}
+#var invisible  {\e[8m}
+
+#var black      {\e[30m}
+#var blue       {\e[34m}
+#var green      {\e[32m}
+#var cyan       {\e[36m}
+#var red        {\e[31m}
+#var purple     {\e[35m}
+#var brown      {\e[33m}
+#var gray       {\e[37m}
+#var yellow     {\e[33m}
+#var white      {\e[37m}

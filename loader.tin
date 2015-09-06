@@ -1,0 +1,8 @@
+#read prefs.tin
+#read configs.tin
+#read colors.tin
+#read aliases.tin
+#read actions.tin
+#read functions.tin
+#read window.tin
+#read tabs.tin

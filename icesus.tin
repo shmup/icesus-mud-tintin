@@ -3,12 +3,7 @@
 
 #split 7 1
 
-#read prefs.tin
-#read configs.tin
-#read aliases.tin
-#read actions.tin
-#read functions.tin
-#read window.tin
+#read loader.tin
 
 #ses icesus icesus.org 23
 $name;$pass;cls;switch to a;l
