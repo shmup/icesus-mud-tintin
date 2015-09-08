@@ -32,12 +32,6 @@
 };
 
 #alias reload {
-  #gag {#OK:}
-  #kill alias;
-  #kill action;
-  #kill function;
-  #kill tab;
-  #UNGAG {#OK:}
-  #read loader.tin
+  #read loader.tin;
   #showme {<cfa>Reloaded.};
 }

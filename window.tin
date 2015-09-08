@@ -2,8 +2,9 @@
 
 #var window {{1}{ } {2}{ } {3}{ } {4}{ } {5}{ } {6}{ }}
 
-#act {~%1 \e[33m[chat]\e[2;37;0m: %2} {showtowin <fea>@chat <fea><<g22>%1<fea>> <g21>%2}
-#act {~%1 \e[1m\e[36m[newbie]\e[2\;37\;0m: %2} {showtowin <cef>@noob <cef><<g22>%1<cef>> <g21>%2}
+#act {~%1 \e[33m[chat]\e[2;37;0m: %2} {showtowin <fea>@chat <fea>[<g22>%1<fea>] <g21>%2}
+#act {~%1 \e[1m\e[36m[newbie]\e[2\;37\;0m: %2} {showtowin <cef>@noob <cef>[<g22>%1<cef>] <g21>%2}
+#act {~%1 \e[1m\e[36m\{newbie\}\e[2\;37\;0m: %2} {showtowin <cef>@noob <cef>\{<g22>%1<cef>\} <g21>%2}
 #act {~%1 \{client+\}: %2} {showtowin <ebd>@client <ebd><<g22>%1<ebd>> <g21>%2}
 #act {~%1 \{mushclient+\}: %2} {showtowin <dba>@mush <dba><<g22>%1<dba>> <g21>%2}
 #act {~\e[1m\e[32m%1 tells you '%2'} {showtowin <efa>@tell <efa><<g22>%1<efa>> <g21>%2}
@@ -32,6 +33,7 @@
     #showme Brad \e[33m[chat]\e[2\;37\;0m: Sup?;
     #showme Sraak {mushclient+}: Birds are cool and can fly!;
     #showme Gilbert {client+}: tintin++ is the best;
+    #showme Bonkers \e[1m\e[36m{newbie}\e[2\;37\;0m: Cool
     #nop #showme Scorpion [party]: The flying ants hatched oh shit;
     #nop #showme JenniferLopez tells you 'Yeah okay yep';
     #nop #showme Cilnite [mage]: Sup?;
