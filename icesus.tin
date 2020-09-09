@@ -5,6 +5,6 @@
 
 #read loader.tin
 
-#ses icesus icesus.org 23
+#ses icesus icesus.org 4000
 $name;$pass;cls;switch to a;l
 
